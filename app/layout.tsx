@@ -8,6 +8,11 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Finesse by Beni",
   description: "Luxury nails and beauty treatments",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
