@@ -7,7 +7,7 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Finesse by Beni",
-  description: "Luxury nails and beauty treatments",
+  description: "Luxury nails, brows, lashes and beauty treatments in Peterborough. Book your appointment today at Finesse by Beni.",
 };
 
 export default function RootLayout({

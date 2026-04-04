@@ -1832,3 +1832,59 @@ a {
     font-size: 24px;
   }
 }
+
+.why-choose-us {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 36px;
+  color: #8f1d3d;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.why-card {
+  background: #fff;
+  border: 1px solid #eadfdb;
+  border-radius: 18px;
+  padding: 28px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.why-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #2b2b2b;
+}
+
+.why-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+@media (max-width: 900px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-choose-us h2 {
+    font-size: 32px;
+  }
+}

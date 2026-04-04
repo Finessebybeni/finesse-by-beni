@@ -7,17 +7,25 @@ export default function Home() {
           <div className="hero">
             <div className="hero-content">
               <h1>From Passion to Perfection</h1>
-              <p>
-                Luxury nails and beauty treatments with care, precision, and style.
-              </p>
-              <a
-                href="https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&share=true&pId=794989"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hero-button"
-              >
-                Book Now
-              </a>
+
+<p>
+  Luxury nails and beauty treatments with care, precision, and style.
+</p>
+
+<ul style={{ marginTop: "10px", fontSize: "14px", opacity: 0.9 }}>
+  <li>⭐ 5★ Rated in Peterborough</li>
+  <li>📍 Easy parking available</li>
+  <li>🕒 Appointment only – calm & private</li>
+</ul>
+
+<a
+  href="https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&share=true&pId=794989"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hero-button"
+>
+  Check Availability Today
+</a>
             </div>
           </div>
         </section>
@@ -74,6 +82,30 @@ export default function Home() {
             <span>Your time. Your space. Your finesse.</span>
           </p>
         </section>
+        <section className="why-choose-us">
+  <h2>Why clients choose us</h2>
+  <div className="why-grid">
+    <div className="why-card">
+      <h3>Premium products</h3>
+      <p>We use trusted professional products for quality, comfort and lasting results.</p>
+    </div>
+
+    <div className="why-card">
+      <h3>Calm appointments</h3>
+      <p>Enjoy a more private, relaxed experience without the rushed salon feeling.</p>
+    </div>
+
+    <div className="why-card">
+      <h3>Personal care</h3>
+      <p>Each treatment is tailored to suit your features, style and individual needs.</p>
+    </div>
+
+    <div className="why-card">
+      <h3>Loyal clients</h3>
+      <p>Many of our clients return regularly because they value consistency, care and trust.</p>
+    </div>
+  </div>
+</section>
 
         <section className="services-preview">
           <div className="section-heading">

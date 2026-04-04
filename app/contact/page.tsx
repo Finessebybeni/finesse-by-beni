@@ -37,7 +37,7 @@ export default function ContactPage() {
               <h3>Quick Contact</h3>
 
               <a
-                href="https://wa.me/447477672143"
+                href="https://wa.me/447477672143?text=Hi,%20I’d%20like%20to%20book%20an%20appointment.%20Can%20you%20help%20me%20choose%20the%20right%20service?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-btn whatsapp"
