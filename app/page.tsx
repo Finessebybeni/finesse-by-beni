@@ -1,3 +1,4 @@
+"use client";
 import HomeReviews from "@/components/HomeReviews";
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
   Luxury nails and beauty treatments with care, precision, and style.
 </p>
 
-<ul style={{ marginTop: "10px", fontSize: "14px", opacity: 0.9 }}>
+<ul style={{ marginTop: "10px", fontSize: "15px", opacity: 0.9 }}>
   <li>⭐ 5★ Rated in Peterborough</li>
   <li>📍 Easy parking available</li>
   <li>🕒 Appointment only – calm & private</li>
@@ -23,6 +24,11 @@ export default function Home() {
   target="_blank"
   rel="noopener noreferrer"
   className="hero-button"
+  onClick={() => {
+    if (typeof window !== "undefined" && (window as any).fbq) {
+      (window as any).fbq("track", "Contact");
+    }
+  }}
 >
   Check Availability Today
 </a>

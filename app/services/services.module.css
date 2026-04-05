@@ -200,6 +200,7 @@
 
 .serviceBookButton {
   display: inline-block;
+  width: fit-content;
   background: #9c2d41;
   color: white;
   padding: 12px 24px;
@@ -402,4 +403,50 @@
     padding: 0 18px 18px;
     font-size: 15px;
   }
+
+  .expandRight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.servicePrice {
+  font-size: 18px;
+  font-weight: 700;
+  color: #9f2746;
+  white-space: nowrap;
+}
+
+
+}
+.serviceBottomRow {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: nowrap !important;
+  gap: 24px;
+  margin-top: 18px;
+  width: 100%;
+}
+
+.serviceExpandedPrice {
+  margin-left: auto;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  color: #9f2746 !important;
+  line-height: 1;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.leftSide {
+  display: flex;
+}
+
+.rightSide {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }

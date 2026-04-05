@@ -10,6 +10,7 @@ type ServiceItem = {
   details: string;
   link: string;
   icon: string;
+  price?: string;
 };
 
 type Category = {
@@ -42,6 +43,7 @@ const categories: Category[] = [
           "This service includes nail filing and shaping, cuticle care, and gel polish application in the colour of your choice, finished with simple salon-style nail art.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11920013&share=true&pId=794989",
         icon: "/service-icons/gel-nail-polish-hands.png",
+        price: "£35",
       },
       {
         id: "infill-gel-polish",
@@ -51,6 +53,7 @@ const categories: Category[] = [
           "Begins with removal of existing polish, followed by filing, shaping, cuticle treatment, and fresh gel polish with nail art.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11920016&share=true&pId=794989",
         icon: "/service-icons/infill-gel-polish.png",
+        price: "£35",
       },
       {
         id: "gel-overlays",
@@ -60,6 +63,7 @@ const categories: Category[] = [
           "This overlay service skips extensions and enhances durability on the natural nail, including shaping, cuticle care, and gel polish with simple nail art.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11920012&share=true&pId=794989",
         icon: "/service-icons/gel-overlays.png",
+        price: "£40",
       },
       {
         id: "hard-gel-extensions",
@@ -69,6 +73,7 @@ const categories: Category[] = [
           "Uses sculpted gel with forms to extend the natural nail without tips, then finished with shaping, cuticle care, and your chosen gel colour and nail art.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11933138&share=true&pId=794989",
         icon: "/service-icons/hard-gel-sculpture-extensions.png",
+        price: "£50",
       },
       {
         id: "infills-nail-extensions",
@@ -78,6 +83,7 @@ const categories: Category[] = [
           "The re-growth area is rebalanced and refined so the nails look fresh again, then finished with gel polish and nail art.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11920014&share=true&pId=794989",
         icon: "/service-icons/infills-nail-extensions.png",
+        price: "£40",
       },
       {
         id: "gel-polish-removal",
@@ -87,6 +93,7 @@ const categories: Category[] = [
           "Safe gel removal using an electric nail drill, followed by nail filing to your desired length and gentle cuticle care.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11933243&share=true&pId=794989",
         icon: "/service-icons/gel-nail-polish-removal.png",
+        price: "£15",
       },
       {
         id: "hard-gel-removal",
@@ -96,6 +103,7 @@ const categories: Category[] = [
           "Removal of hard gel or acrylic using an electric nail drill, followed by nail filing and cuticle treatment.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11933257&share=true&pId=794989",
         icon: "/service-icons/removal-hard-gel-acrylic-nails.png",
+        price: "£15",
       },
       {
         id: "nail-repair",
@@ -105,6 +113,7 @@ const categories: Category[] = [
           "If a nail is broken or needs repair and it has been a week or longer since your last nail appointment, it can be repaired and restored neatly.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11933276&share=true&pId=794989",
         icon: "/service-icons/nail-repair.png",
+        price: "£3",
       },
       {
         id: "express-pedicure",
@@ -114,6 +123,7 @@ const categories: Category[] = [
           "Includes nail filing and shaping, cuticle care, and gel polish application in your chosen colour with simple salon-style nail art.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=2155610&oiid=sv%3A11920015&share=true&pId=794989",
         icon: "/service-icons/express-pedicure.png",
+        price: "£20",
       },
       {
         id: "classic-pedicure",
@@ -123,6 +133,7 @@ const categories: Category[] = [
           "Includes foot soaking, exfoliation, nail and cuticle work, massage, moisturising, and finishing with gel polish.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834569&share=true&pId=794989",
         icon: "/service-icons/classic-pedicure.png",
+        price: "£45",
       },
       {
         id: "luxury-spa-pedicure",
@@ -132,6 +143,7 @@ const categories: Category[] = [
           "A relaxing spa pedicure including soak, exfoliation, nail and cuticle work, foot and leg massage, paraffin wax with heated mitts, and gel polish.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834586&share=true&pId=794989",
         icon: "/service-icons/luxury-spa-pedicure.png",
+        price: "£55",
       },
       {
         id: "callus-softening-pedicure",
@@ -141,6 +153,7 @@ const categories: Category[] = [
           "Designed to soften and remove hard skin using a specialised peel softener, combined with a classic pedicure treatment.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834625&share=true&pId=794989",
         icon: "/service-icons/callus-softening-pedicure.png",
+        price: "£50",
       },
     ],
   },
@@ -159,6 +172,7 @@ const categories: Category[] = [
           "A quick treatment designed to remove upper lip hair cleanly and leave the skin feeling smooth.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834150&share=true&pId=794989",
         icon: "/service-icons/lip-wax.png",
+        price: "£6",
       },
       {
         id: "chin-wax",
@@ -168,6 +182,7 @@ const categories: Category[] = [
           "Designed to leave the chin area soft, neat, and smooth with a clean finish.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834174&share=true&pId=794989",
         icon: "/service-icons/chin-wax.png",
+        price: "£7",
       },
       {
         id: "lip-and-chin-wax",
@@ -177,6 +192,7 @@ const categories: Category[] = [
           "A combination treatment that covers both areas together for convenient facial waxing and a polished finish.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834185&share=true&pId=794989",
         icon: "/service-icons/lip-and-chin-wax.png",
+        price: "£12",
       },
       {
         id: "underarm-wax",
@@ -186,6 +202,7 @@ const categories: Category[] = [
           "A practical hair removal treatment for the underarm area designed to leave the skin smooth and well cared for.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834219&share=true&pId=794989",
         icon: "/service-icons/underarm-wax.png",
+        price: "£10",
       },
       {
         id: "half-arm-wax",
@@ -195,6 +212,7 @@ const categories: Category[] = [
           "A targeted waxing treatment covering the lower arm area for a smooth, neat finish.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834231&share=true&pId=794989",
         icon: "/service-icons/half-arm-wax.png",
+        price: "£15",
       },
       {
         id: "full-arm-wax",
@@ -204,6 +222,7 @@ const categories: Category[] = [
           "A full arm treatment for smooth skin and a clean, consistent finish across the entire arm.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834243&share=true&pId=794989",
         icon: "/service-icons/full-arm-wax.png",
+        price: "£20",
       },
       {
         id: "half-leg-wax",
@@ -213,6 +232,7 @@ const categories: Category[] = [
           "A flexible waxing treatment covering one half of the leg, depending on the area you want treated.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834268&share=true&pId=794989",
         icon: "/service-icons/half-leg-wax.png",
+        price: "£20",
       },
       {
         id: "full-leg-wax",
@@ -222,6 +242,7 @@ const categories: Category[] = [
           "A complete lower body waxing treatment designed to leave the legs smooth and neatly finished.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834286&share=true&pId=794989",
         icon: "/service-icons/full-leg-wax.png",
+        price: "£28",
       },
       {
         id: "bikini-line-wax",
@@ -231,6 +252,7 @@ const categories: Category[] = [
           "A neat maintenance treatment for the bikini line, designed to keep the area clean and smooth.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834299&share=true&pId=794989",
         icon: "/service-icons/bikini-line-wax.png",
+        price: "£16",
       },
     ],
   },
@@ -249,6 +271,7 @@ const categories: Category[] = [
           "Uses waxing techniques to shape the brows neatly and create a result that feels balanced and well defined.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26833005&share=true&pId=794989",
         icon: "/service-icons/brow-sculpt.png",
+        price: "£10",
       },
       {
         id: "brow-tint",
@@ -258,6 +281,7 @@ const categories: Category[] = [
           "A tinting treatment designed to enhance the natural brows and create stronger definition with a soft finish.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834092&share=true&pId=794989",
         icon: "/service-icons/brow-tint.png",
+        price: "£13",
       },
       {
         id: "brow-sculpt-and-tint",
@@ -267,6 +291,7 @@ const categories: Category[] = [
           "Pairs brow shaping with tinting to create brows that feel balanced, defined, and tailored to your features.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834113&share=true&pId=794989",
         icon: "/service-icons/brow-sculpt-and-tint.png",
+        price: "£20",
       },
       {
         id: "lash-tint",
@@ -276,6 +301,7 @@ const categories: Category[] = [
           "A tinting treatment designed to make the lashes appear deeper and more noticeable without adding extensions.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834130&share=true&pId=794989",
         icon: "/service-icons/lash-tint.png",
+        price: "£10",
       },
       {
         id: "brow-shaping-with-tweezers",
@@ -285,6 +311,7 @@ const categories: Category[] = [
           "A precision brow shaping treatment using tweezers to refine the shape and keep the result clean and flattering.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26832992&share=true&pId=794989",
         icon: "/service-icons/brow-shaping-with-tweezers.png",
+        price: "£8",
       },
     ],
   },
@@ -303,6 +330,7 @@ const categories: Category[] = [
           "Includes cleansing, exfoliation, steamer or hot towels, moisturising, and finishing SPF for a refreshed, balanced result.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834377&share=true&pId=794989",
         icon: "/service-icons/skin-reset-facial.png",
+        price: "£40",
       },
       {
         id: "glow-renewal-facial",
@@ -312,6 +340,7 @@ const categories: Category[] = [
           "Focused on minimising enlarged pores through exfoliation, steaming, extractions, and peach fuzz removal for a cleaner glow.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834425&share=true&pId=794989",
         icon: "/service-icons/glow-renewal-facial.png",
+        price: "£50",
       },
       {
         id: "hydration-boost-facial",
@@ -321,6 +350,7 @@ const categories: Category[] = [
           "A nourishing treatment using ingredients such as hyaluronic acid and vitamin C to help improve hydration and skin comfort.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834454&share=true&pId=794989",
         icon: "/service-icons/hydration-boost-facial.png",
+        price: "£55",
       },
       {
         id: "deep-skin-detox-facial",
@@ -330,6 +360,7 @@ const categories: Category[] = [
           "Uses ingredients such as charcoal, clay, or salicylic acid with lymphatic drainage and vitamin support to deeply refresh the skin.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834477&share=true&pId=794989",
         icon: "/service-icons/deep-skin-detox-facial.png",
+        price: "£55",
       },
       {
         id: "age-defence-facial",
@@ -339,6 +370,7 @@ const categories: Category[] = [
           "Uses targeted ingredients such as collagen, glycolic acid, vitamins C and E, hyaluronic acid, and retinol to support smoother-looking skin.",
         link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834489&share=true&pId=794989",
         icon: "/service-icons/age-defence-facial.png",
+        price: "£60",
       },
     ],
   },
@@ -469,23 +501,34 @@ export default function ServicesPage() {
                           <p>{service.short}</p>
                         </div>
 
-                        <div className={styles.expandMark}>
-                          {isOpen ? "−" : "+"}
-                        </div>
+                        <div className={styles.expandMark}>{isOpen ? "−" : "+"}</div>
                       </button>
 
                       {isOpen && (
                         <div className={styles.serviceDetails}>
-                          <p>{service.details}</p>
-                          <a
-                            href={service.link}
-                            target="_blank"
-                            rel="noreferrer"
-                            className={styles.serviceBookButton}
-                          >
-                            Book on Fresha
-                          </a>
-                        </div>
+  <p>{service.details}</p>
+
+  <div className={styles.serviceBottomRow}>
+  <div className={styles.leftSide}>
+    <a
+      href={service.link}
+      target="_blank"
+      rel="noreferrer"
+      className={styles.serviceBookButton}
+    >
+      Book on Fresha
+    </a>
+  </div>
+
+  {service.price && (
+    <div className={styles.rightSide}>
+      <span className={styles.serviceExpandedPrice}>
+        {service.price}
+      </span>
+    </div>
+  )}
+</div>
+</div>
                       )}
                     </div>
                   );
