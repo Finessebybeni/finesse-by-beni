@@ -131,7 +131,7 @@ const categories: Category[] = [
         short: "A well-rounded pedicure with soak, care, massage, and gel finish.",
         details:
           "Includes foot soaking, exfoliation, nail and cuticle work, massage, moisturising, and finishing with gel polish.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834569&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226477&share=true&pId=794989",
         icon: "/service-icons/classic-pedicure.png",
         price: "£45",
       },
@@ -141,7 +141,7 @@ const categories: Category[] = [
         short: "A more indulgent pedicure with extra relaxation and care.",
         details:
           "A relaxing spa pedicure including soak, exfoliation, nail and cuticle work, foot and leg massage, paraffin wax with heated mitts, and gel polish.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834586&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226494&share=true&pId=794989",
         icon: "/service-icons/luxury-spa-pedicure.png",
         price: "£55",
       },
@@ -151,7 +151,7 @@ const categories: Category[] = [
         short: "Specialised treatment for hard skin with pedicure care included.",
         details:
           "Designed to soften and remove hard skin using a specialised peel softener, combined with a classic pedicure treatment.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834625&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226503&share=true&pId=794989",
         icon: "/service-icons/callus-softening-pedicure.png",
         price: "£50",
       },
@@ -170,7 +170,7 @@ const categories: Category[] = [
         short: "Gentle upper lip hair removal for a smooth finish.",
         details:
           "A quick treatment designed to remove upper lip hair cleanly and leave the skin feeling smooth.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834150&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226715&share=true&pId=794989",
         icon: "/service-icons/lip-wax.png",
         price: "£6",
       },
@@ -180,7 +180,7 @@ const categories: Category[] = [
         short: "Removes unwanted hair from the chin area.",
         details:
           "Designed to leave the chin area soft, neat, and smooth with a clean finish.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834174&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226711&share=true&pId=794989",
         icon: "/service-icons/chin-wax.png",
         price: "£7",
       },
@@ -190,7 +190,7 @@ const categories: Category[] = [
         short: "Combined facial waxing for a smooth, tidy result.",
         details:
           "A combination treatment that covers both areas together for convenient facial waxing and a polished finish.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834185&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226700&share=true&pId=794989",
         icon: "/service-icons/lip-and-chin-wax.png",
         price: "£12",
       },
@@ -200,7 +200,7 @@ const categories: Category[] = [
         short: "Professional underarm waxing for long-lasting smoothness.",
         details:
           "A practical hair removal treatment for the underarm area designed to leave the skin smooth and well cared for.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834219&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226698&share=true&pId=794989",
         icon: "/service-icons/underarm-wax.png",
         price: "£10",
       },
@@ -210,7 +210,7 @@ const categories: Category[] = [
         short: "Hair removal from elbow to wrist.",
         details:
           "A targeted waxing treatment covering the lower arm area for a smooth, neat finish.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834231&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226681&share=true&pId=794989",
         icon: "/service-icons/half-arm-wax.png",
         price: "£15",
       },
@@ -220,7 +220,7 @@ const categories: Category[] = [
         short: "Complete arm waxing from shoulder to wrist.",
         details:
           "A full arm treatment for smooth skin and a clean, consistent finish across the entire arm.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834243&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226673&share=true&pId=794989",
         icon: "/service-icons/full-arm-wax.png",
         price: "£20",
       },
@@ -230,7 +230,7 @@ const categories: Category[] = [
         short: "Hair removal from either the upper or lower leg.",
         details:
           "A flexible waxing treatment covering one half of the leg, depending on the area you want treated.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834268&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226671&share=true&pId=794989",
         icon: "/service-icons/half-leg-wax.png",
         price: "£20",
       },
@@ -240,7 +240,7 @@ const categories: Category[] = [
         short: "Full leg waxing from thigh to ankle.",
         details:
           "A complete lower body waxing treatment designed to leave the legs smooth and neatly finished.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834286&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226652&share=true&pId=794989",
         icon: "/service-icons/full-leg-wax.png",
         price: "£28",
       },
@@ -250,7 +250,7 @@ const categories: Category[] = [
         short: "Removes hair outside the bikini line for a tidy finish.",
         details:
           "A neat maintenance treatment for the bikini line, designed to keep the area clean and smooth.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834299&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226649&share=true&pId=794989",
         icon: "/service-icons/bikini-line-wax.png",
         price: "£16",
       },
@@ -269,7 +269,7 @@ const categories: Category[] = [
         short: "Professional brow shaping for a clean and flattering finish.",
         details:
           "Uses waxing techniques to shape the brows neatly and create a result that feels balanced and well defined.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26833005&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226726&share=true&pId=794989",
         icon: "/service-icons/brow-sculpt.png",
         price: "£10",
       },
@@ -279,7 +279,7 @@ const categories: Category[] = [
         short: "Semi-permanent colour for fuller, more defined brows.",
         details:
           "A tinting treatment designed to enhance the natural brows and create stronger definition with a soft finish.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834092&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226750&share=true&pId=794989",
         icon: "/service-icons/brow-tint.png",
         price: "£13",
       },
@@ -289,7 +289,7 @@ const categories: Category[] = [
         short: "Shape and colour combined for a polished brow finish.",
         details:
           "Pairs brow shaping with tinting to create brows that feel balanced, defined, and tailored to your features.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834113&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226756&share=true&pId=794989",
         icon: "/service-icons/brow-sculpt-and-tint.png",
         price: "£20",
       },
@@ -299,7 +299,7 @@ const categories: Category[] = [
         short: "Darkens lashes and enhances natural eye definition.",
         details:
           "A tinting treatment designed to make the lashes appear deeper and more noticeable without adding extensions.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834130&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226761&share=true&pId=794989",
         icon: "/service-icons/lash-tint.png",
         price: "£10",
       },
@@ -309,12 +309,131 @@ const categories: Category[] = [
         short: "Neat shaping using tweezers for controlled definition.",
         details:
           "A precision brow shaping treatment using tweezers to refine the shape and keep the result clean and flattering.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26832992&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226769&share=true&pId=794989",
         icon: "/service-icons/brow-shaping-with-tweezers.png",
         price: "£8",
       },
     ],
   },
+  {
+  id: "massage",
+  title: "Massages",
+  intro:
+    "Relaxing and therapeutic massage treatments designed to ease tension, support wellbeing, and help the body feel calmer, lighter, and more refreshed.",
+  image: "/services/massage-banner.jpg",
+  services: [
+    {
+      id: "swedish-bns-massage",
+      name: "Swedish BNS Massage",
+      short:
+        "A relaxing Swedish massage focused on the back, neck, and shoulders. Duration 30 min.",
+      details:
+        "A gentle massage designed to ease everyday tension, relax the muscles, and create a calm sense of wellbeing.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532350&share=true&pId=794989",
+      icon: "/service-icons/swedish-massage.png",
+      price: "£35",
+    },
+    {
+      id: "swedish-full-body-massage",
+      name: "Swedish Full Body Massage",
+      short:
+        "A soothing full body massage for relaxation and muscle comfort. Duration 60 min.",
+      details:
+        "A relaxing full body treatment designed to improve comfort, reduce stress, and leave you feeling refreshed.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532353&share=true&pId=794989",
+      icon: "/service-icons/swedish-massage.png",
+      price: "£55",
+    },
+    {
+      id: "deep-tissue-bns-massage",
+      name: "Deep Tissue BNS Tension-Ease Massage",
+      short:
+        "Focused deep tissue massage for the back, neck, and shoulders. Duration 30 min.",
+      details:
+        "A firmer massage designed to target muscle tension, stiffness, and areas that need deeper pressure.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532391&share=true&pId=794989",
+      icon: "/service-icons/deep-tissue-massage.png",
+      price: "£40",
+    },
+    {
+      id: "deep-tissue-full-body-massage",
+      name: "Deep Tissue Full Body Tension-Ease Massage",
+      short:
+        "A firm-pressure full body massage for deeper muscle tension. Duration 60 min.",
+      details:
+        "A stronger massage treatment designed to reduce stiffness, support muscle recovery, and relieve built-up tension.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532388&share=true&pId=794989",
+      icon: "/service-icons/deep-tissue-massage.png",
+      price: "£60",
+    },
+    {
+      id: "hot-stone-back-massage",
+      name: "Hot Stone Back Massage",
+      short:
+        "A warming back, neck, and shoulder massage using heated stones. Duration 30 min.",
+      details:
+        "A deeply relaxing treatment using smooth heated stones to warm the muscles and ease tension.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532356&share=true&pId=794989",
+      icon: "/service-icons/hot-stone-massage.png",
+      price: "£42",
+    },
+    {
+      id: "hot-stone-full-body-massage",
+      name: "Hot Stone Full Body Massage",
+      short:
+        "A luxurious full body massage using smooth heated stones. Duration 60 min.",
+      details:
+        "A calming full body treatment designed to relax the muscles, improve comfort, and support deep relaxation.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532359&share=true&pId=794989",
+      icon: "/service-icons/hot-stone-massage.png",
+      price: "£65",
+    },
+    {
+      id: "bamboo-back-massage",
+      name: "Bamboo Deep Tissue Back Massage",
+      short:
+        "A deep tissue back, neck, and shoulder massage using bamboo tools. Duration 30 min.",
+      details:
+        "A specialised massage using bamboo tools to apply deeper pressure and help release muscle tightness.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532365&share=true&pId=794989",
+      icon: "/service-icons/bamboo-massage.png",
+      price: "£45",
+    },
+    {
+      id: "bamboo-full-body-massage",
+      name: "Bamboo Deep Tissue Full Body Massage",
+      short:
+        "A powerful full body massage using heated bamboo tools. Duration 60 min.",
+      details:
+        "A firm full body treatment designed to target deeper muscle tension and leave the body feeling lighter.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532372&share=true&pId=794989",
+      icon: "/service-icons/bamboo-massage.png",
+      price: "£70",
+    },
+    {
+      id: "lava-shell-bns-massage",
+      name: "Lava Shell Back, Neck & Shoulders Massage",
+      short:
+        "A heated lava shell massage focused on the back, neck, and shoulders. Duration 30 min.",
+      details:
+        "A warming treatment using lava shells to ease muscle tension and create a deeply comforting massage experience.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27534940&share=true&pId=794989",
+      icon: "/service-icons/lava-shell-massage.png",
+      price: "£50",
+    },
+    {
+      id: "lava-shell-full-body-massage",
+      name: "Lava Shell Full Body Massage",
+      short:
+        "A premium heated shell massage for full body relaxation. Duration 60 min.",
+      details:
+        "A relaxing full body massage using heated lava shells to deliver warmth, comfort, and a luxury spa feeling.",
+      link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27532386&share=true&pId=794989",
+      icon: "/service-icons/lava-shell-massage.png",
+      price: "£80",
+    },
+  ],
+},
   {
     id: "facials",
     title: "Facials & Skin",
@@ -328,7 +447,7 @@ const categories: Category[] = [
         short: "A classic facial to cleanse, refresh, and reset the skin.",
         details:
           "Includes cleansing, exfoliation, steamer or hot towels, moisturising, and finishing SPF for a refreshed, balanced result.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834377&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226597&share=true&pId=794989",
         icon: "/service-icons/skin-reset-facial.png",
         price: "£40",
       },
@@ -338,7 +457,7 @@ const categories: Category[] = [
         short: "Deep exfoliation for smoother, brighter, fresher-looking skin.",
         details:
           "Focused on minimising enlarged pores through exfoliation, steaming, extractions, and peach fuzz removal for a cleaner glow.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834425&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226614&share=true&pId=794989",
         icon: "/service-icons/glow-renewal-facial.png",
         price: "£50",
       },
@@ -348,7 +467,7 @@ const categories: Category[] = [
         short: "Restores moisture and softness to dull or dry skin.",
         details:
           "A nourishing treatment using ingredients such as hyaluronic acid and vitamin C to help improve hydration and skin comfort.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834454&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226621&share=true&pId=794989",
         icon: "/service-icons/hydration-boost-facial.png",
         price: "£55",
       },
@@ -358,7 +477,7 @@ const categories: Category[] = [
         short: "Purifying care to cleanse pores and remove impurities.",
         details:
           "Uses ingredients such as charcoal, clay, or salicylic acid with lymphatic drainage and vitamin support to deeply refresh the skin.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834477&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226630&share=true&pId=794989",
         icon: "/service-icons/deep-skin-detox-facial.png",
         price: "£55",
       },
@@ -368,7 +487,7 @@ const categories: Category[] = [
         short: "A rejuvenating treatment focused on firmness and smoothness.",
         details:
           "Uses targeted ingredients such as collagen, glycolic acid, vitamins C and E, hyaluronic acid, and retinol to support smoother-looking skin.",
-        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5161617&oiid=sv%3A26834489&share=true&pId=794989",
+        link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27226635&share=true&pId=794989",
         icon: "/service-icons/age-defence-facial.png",
         price: "£60",
       },

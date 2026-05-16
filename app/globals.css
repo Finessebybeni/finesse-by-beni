@@ -1888,3 +1888,54 @@ a {
     font-size: 32px;
   }
 }
+.announcementBar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(90deg, #f6d8cc, #f9e6df, #f6d8cc);
+  border-bottom: 1px solid rgba(156, 45, 65, 0.12);
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.announcementBar.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.announcementBar.hide {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.announcementTrack {
+  display: flex;
+  width: max-content;
+  animation: scrollAnnouncement 24s linear infinite;
+  white-space: nowrap;
+}
+
+.announcementGroup {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.announcementItem {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #9c2d41;
+  padding: 10px 42px;
+  flex-shrink: 0;
+}
+
+@keyframes scrollAnnouncement {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}

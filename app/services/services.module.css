@@ -66,9 +66,8 @@
 .grid {
   max-width: 1200px;
   margin: 0 auto 46px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px;
+  columns: 2;
+  column-gap: 28px;
 }
 
 .categoryCard {
@@ -77,6 +76,10 @@
   border-radius: 26px;
   overflow: hidden;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.04);
+  break-inside: avoid;
+  margin-bottom: 28px;
+  display: inline-block;
+  width: 100%;
 }
 
 .categoryImage {
@@ -322,7 +325,7 @@
 
 @media (max-width: 1100px) {
   .grid {
-    grid-template-columns: 1fr;
+    columns: 1;
   }
 
   .faqGrid {
@@ -405,21 +408,20 @@
   }
 
   .expandRight {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+  }
+
+  .servicePrice {
+    font-size: 18px;
+    font-weight: 700;
+    color: #9f2746;
+    white-space: nowrap;
+  }
 }
 
-.servicePrice {
-  font-size: 18px;
-  font-weight: 700;
-  color: #9f2746;
-  white-space: nowrap;
-}
-
-
-}
 .serviceBottomRow {
   display: flex !important;
   flex-direction: row !important;

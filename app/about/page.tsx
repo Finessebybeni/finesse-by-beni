@@ -192,15 +192,15 @@ export default function AboutPage() {
             <article className="about-team-card">
               <div className="about-image-card about-team-portrait">
                 <div className="about-image-inner">
-                  <img src="/about/team-britney.jpg" alt="Britney team portrait" />
+                  <img src="/about/team-lucy.jpg" alt="Britney team portrait" />
                 </div>
               </div>
 
               <div className="about-team-content">
-                <h3>Britney</h3>
+                <h3>Lucy</h3>
                 <p className="about-role">Beauty Therapist</p>
                 <p>
-                  Britney brings a calm, professional presence, strong attention
+                  Lucy brings a calm, professional presence, strong attention
                   to detail, and a client-first approach that supports the
                   expansion of the salon’s beauty services.
                 </p>

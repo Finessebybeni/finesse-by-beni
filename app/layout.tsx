@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import CookieBanner from "../components/CookieBanner";
 import type { Metadata } from "next";
 import Script from "next/script";
+import AnnouncementBar from "@/components/AnnouncementBar";
 
 export const metadata: Metadata = {
   title: "Finesse by Beni",
@@ -68,6 +69,7 @@ export default function RootLayout({
 
       <body>
         <Navbar />
+        <AnnouncementBar />
         {children}
         <Footer />
         <CookieBanner />
