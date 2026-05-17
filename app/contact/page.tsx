@@ -28,8 +28,8 @@ export default function ContactPage() {
 
             <div className="contact-card">
               <h3>Opening Hours</h3>
-              <p>Monday – Friday: 9:00 – 18:00</p>
-              <p>Saturday: 9:00 – 16:00</p>
+              <p>Monday – Friday: 9:00 – 19:00</p>
+              <p>Saturday: 9:00 – 18:30</p>
               <p>Sunday: Closed</p>
             </div>
 

@@ -432,6 +432,29 @@ const categories: Category[] = [
       icon: "/service-icons/lava-shell-massage.png",
       price: "£80",
     },
+    {
+  id: "lymphatic-drainage-manual-targeted-massage",
+  name: "Lymphatic Drainage Manual Targeted Massage",
+  short:
+    "A gentle manual lymphatic drainage massage focused on targeted areas to reduce swelling, fluid retention, and support natural wellness. Duration 30 min.",
+  details:
+    "A targeted manual lymphatic drainage massage using light rhythmic techniques to support lymph flow, reduce puffiness, fluid retention, and encourage a lighter refreshed feeling.",
+  link: "ADD_FRESHA_LINK_HERE",
+  icon: "/service-icons/lymphatic-drainage-massage.png",
+  price: "£42",
+},
+{
+  id: "lymphatic-drainage-manual-full-body-massage",
+  name: "Lymphatic Drainage Manual Full Body Massage",
+  short:
+    "A full body manual lymphatic drainage massage designed to reduce bloating, fluid retention, and support overall wellness. Duration 60 min.",
+  details:
+    "A full body manual lymphatic drainage massage using gentle hands-on techniques to encourage circulation, reduce swelling, support detoxification, and promote relaxation.",
+  link: "ADD_FRESHA_LINK_HERE",
+  icon: "/service-icons/lymphatic-drainage-massage.png",
+  price: "£65",
+},
+  
   ],
 },
   {

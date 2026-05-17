@@ -181,10 +181,9 @@ export default function AboutPage() {
 
               <div className="about-team-content">
                 <h3>Beni</h3>
-                <p className="about-role">Founder • Nail Technician</p>
+                <p className="about-role">Founder • Manicure/Pedicure Expert</p>
                 <p>
-                  The creative force behind the brand, known for precision,
-                  artistic detail, and a premium no-rush approach.
+                  With a passion for nail artistry since 2013, Albena has built a trusted reputation as an experienced nail expert, specialising in luxury manicures and pedicures. Known for her gentle touch, exceptional precision, artistic creativity, and natural eye for beauty, she takes pride in creating elegant, highly detailed designs that reflect both skill and individuality while delivering a premium, personalised experience.
                 </p>
               </div>
             </article>
@@ -200,9 +199,7 @@ export default function AboutPage() {
                 <h3>Lucy</h3>
                 <p className="about-role">Beauty Therapist</p>
                 <p>
-                  Lucy brings a calm, professional presence, strong attention
-                  to detail, and a client-first approach that supports the
-                  expansion of the salon’s beauty services.
+                  Lucy brings over three years of professional beauty and spa experience, combining advanced treatment skills with a calm, client-focused approach. Her expertise, attention to detail, and passion for delivering high-quality care support the continued growth of the salon’s beauty services.
                 </p>
               </div>
             </article>
