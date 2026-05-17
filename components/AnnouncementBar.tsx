@@ -5,9 +5,9 @@ import { useEffect, useState } from "react";
 const showAnnouncementBar = true;
 
 const messages = [
-  "New massage treatments now available",
-  "Appointment only",
-  "20% off selected beauty services",
+  "New massage treatments now available – 20% off listed prices",
+  "Appointment only – calm, private experience",
+  "15% off listed prices on selected beauty treatments",
 ];
 
 export default function AnnouncementBar() {
