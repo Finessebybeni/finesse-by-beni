@@ -439,7 +439,7 @@ const categories: Category[] = [
     "A gentle manual lymphatic drainage massage focused on targeted areas to reduce swelling, fluid retention, and support natural wellness. Duration 30 min.",
   details:
     "A targeted manual lymphatic drainage massage using light rhythmic techniques to support lymph flow, reduce puffiness, fluid retention, and encourage a lighter refreshed feeling.",
-  link: "ADD_FRESHA_LINK_HERE",
+  link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27543948&share=true&pId=794989",
   icon: "/service-icons/lymphatic-drainage-massage.png",
   price: "£42",
 },
@@ -450,7 +450,7 @@ const categories: Category[] = [
     "A full body manual lymphatic drainage massage designed to reduce bloating, fluid retention, and support overall wellness. Duration 60 min.",
   details:
     "A full body manual lymphatic drainage massage using gentle hands-on techniques to encourage circulation, reduce swelling, support detoxification, and promote relaxation.",
-  link: "ADD_FRESHA_LINK_HERE",
+  link: "https://www.fresha.com/book-now/nails-art-by-beni-o1nmt59t/services?lid=845612&eid=5266254&oiid=sv%3A27543951&share=true&pId=794989",
   icon: "/service-icons/lymphatic-drainage-massage.png",
   price: "£65",
 },
