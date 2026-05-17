@@ -10,7 +10,7 @@ export default function Home() {
               <h1>From Passion to Perfection</h1>
 
 <p>
-  Luxury nails and beauty treatments with care, precision, and style.
+  Expert manicures, waxing, brows, lashes, facials, skin treatments, and relaxing massage experiences — all thoughtfully delivered to help you look polished, feel confident, and prioritise your self-care.
 </p>
 
 <ul style={{ marginTop: "10px", fontSize: "15px", opacity: 0.9 }}>
@@ -30,7 +30,7 @@ export default function Home() {
     }
   }}
 >
-  Check Availability Today
+  BOOK YOUR SELF-CARE EXPERIENCE
 </a>
             </div>
           </div>
