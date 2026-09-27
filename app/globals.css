@@ -622,75 +622,74 @@ a {
   line-height: 1.7;
 }
 
-/* COOKIE MODAL */
+/* COOKIE BANNER — недостигащ до блокиране, не пречи на разглеждане на сайта */
 
-.cookie-lock {
-  overflow: hidden;
-}
-
-.cookie-overlay {
+.cookie-banner {
   position: fixed;
-  inset: 0;
-  z-index: 9999;
-  background: rgba(20, 14, 14, 0.45);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.cookie-modal {
-  width: 100%;
-  max-width: 460px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  width: calc(100% - 32px);
+  max-width: 640px;
   background: #fffaf8;
   border-radius: 20px;
-  padding: 26px 24px;
-  text-align: center;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+  padding: 20px 22px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
   animation: fadeIn 0.3s ease;
 }
 
-.cookie-modal h3 {
-  margin: 0 0 10px;
-  color: #9c2d41;
-  font-size: 22px;
+@media (min-width: 640px) {
+  .cookie-banner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
-.cookie-modal p {
-  font-size: 14px;
-  line-height: 1.7;
-  color: #5b5050;
-  margin-bottom: 14px;
-}
-
-.cookie-links {
-  display: flex;
-  justify-content: center;
-  gap: 14px;
-  margin-bottom: 18px;
-}
-
-.cookie-links a {
+.cookie-banner-text {
   font-size: 13px;
+  line-height: 1.6;
+  color: #5b5050;
+  margin: 0;
+}
+
+.cookie-banner-text a {
   color: #9c2d41;
   font-weight: 700;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
 }
 
 .cookie-btn {
-  width: 100%;
   background: #9c2d41;
   color: white;
   border: none;
-  padding: 12px;
+  padding: 10px 20px;
   border-radius: 999px;
   font-weight: 700;
+  font-size: 13px;
   cursor: pointer;
   transition: 0.2s ease;
+  white-space: nowrap;
 }
 
 .cookie-btn:hover {
   transform: translateY(-1px);
   opacity: 0.92;
+}
+
+.cookie-btn-secondary {
+  background: transparent;
+  color: #9c2d41;
+  border: 1px solid #9c2d41;
 }
 
 @keyframes fadeIn {

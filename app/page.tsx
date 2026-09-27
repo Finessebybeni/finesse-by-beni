@@ -25,8 +25,8 @@ export default function Home() {
   rel="noopener noreferrer"
   className="hero-button"
   onClick={() => {
-    if (typeof window !== "undefined" && (window as any).fbq) {
-      (window as any).fbq("track", "Contact");
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "Contact");
     }
   }}
 >
