@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions | Finesse by Beni",
+  description:
+    "The terms and conditions for using the Finesse by Beni website and booking services.",
+};
+
 export default function TermsPage() {
   return (
     <main className="page-section">

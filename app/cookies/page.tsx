@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cookie Policy | Finesse by Beni",
+  description:
+    "How Finesse by Beni uses cookies on this website, and how to manage your cookie preferences.",
+};
+
 export default function CookiesPage() {
   return (
     <main className="page-section">

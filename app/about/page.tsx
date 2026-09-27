@@ -1,4 +1,11 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us | Finesse by Beni",
+  description:
+    "Meet Beni and the team behind Finesse by Beni — a nail and beauty studio in Peterborough built on 13+ years of experience, precision, and personal care.",
+};
 
 export default function AboutPage() {
   return (

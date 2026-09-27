@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact & Location | Finesse by Beni",
+  description:
+    "Get in touch with Finesse by Beni in Peterborough. Find our address, opening hours, and quick contact options to book your appointment.",
+};
+
 export default function ContactPage() {
   return (
     <main className="contact-page">

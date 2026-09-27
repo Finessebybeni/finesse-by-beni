@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Finesse by Beni",
+  description:
+    "How Finesse by Beni collects, uses, and protects your personal information.",
+};
+
 export default function PrivacyPage() {
   return (
     <main className="page-section">

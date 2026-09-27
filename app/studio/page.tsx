@@ -72,6 +72,7 @@ export default function StudioPage() {
                 alt={`Studio work ${i + 1}`}
                 fill
                 sizes="(min-width: 900px) 25vw, 50vw"
+                priority={i === 0}
               />
             </div>
           ))}

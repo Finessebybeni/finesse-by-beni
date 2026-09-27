@@ -604,7 +604,7 @@ export default function ServicesPage() {
       </section>
 
       <section className={styles.grid}>
-        {categories.map((category) => (
+        {categories.map((category, index) => (
           <article
             key={category.id}
             id={category.id}
@@ -616,6 +616,7 @@ export default function ServicesPage() {
                 alt={category.title}
                 fill
                 sizes="(min-width: 1100px) 50vw, 100vw"
+                priority={index === 0}
               />
             </div>
 
