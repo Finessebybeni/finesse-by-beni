@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import styles from "./services.module.css";
 
 type ServiceItem = {
@@ -610,7 +611,12 @@ export default function ServicesPage() {
             className={styles.categoryCard}
           >
             <div className={styles.categoryImage}>
-              <img src={category.image} alt={category.title} />
+              <Image
+                src={category.image}
+                alt={category.title}
+                fill
+                sizes="(min-width: 1100px) 50vw, 100vw"
+              />
             </div>
 
             <div className={styles.categoryContent}>
@@ -635,7 +641,12 @@ export default function ServicesPage() {
                         aria-expanded={isOpen}
                       >
                         <div className={styles.serviceIcon}>
-                          <img src={service.icon} alt={service.name} />
+                          <Image
+                            src={service.icon}
+                            alt={service.name}
+                            fill
+                            sizes="74px"
+                          />
                         </div>
 
                         <div className={styles.serviceSummary}>

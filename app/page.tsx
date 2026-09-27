@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import HomeReviews from "@/components/HomeReviews";
 export default function Home() {
   return (
@@ -39,25 +40,25 @@ export default function Home() {
         <section className="brand-strip-wrap">
           <div className="brand-strip">
             <div className="brand-track">
-              <div className="brand-box"><img src="/brands/logo1.png" alt="Brand logo 1" /></div>
-              <div className="brand-box"><img src="/brands/logo2.png" alt="Brand logo 2" /></div>
-              <div className="brand-box"><img src="/brands/logo3.png" alt="Brand logo 3" /></div>
-              <div className="brand-box"><img src="/brands/logo4.png" alt="Brand logo 4" /></div>
-              <div className="brand-box"><img src="/brands/logo5.png" alt="Brand logo 5" /></div>
-              <div className="brand-box"><img src="/brands/logo6.png" alt="Brand logo 6" /></div>
-              <div className="brand-box"><img src="/brands/logo7.png" alt="Brand logo 7" /></div>
-              <div className="brand-box"><img src="/brands/logo8.png" alt="Brand logo 8" /></div>
-              <div className="brand-box"><img src="/brands/logo9.png" alt="Brand logo 9" /></div>
+              <div className="brand-box"><Image src="/brands/logo1.png" alt="Brand logo 1" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo2.png" alt="Brand logo 2" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo3.png" alt="Brand logo 3" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo4.png" alt="Brand logo 4" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo5.png" alt="Brand logo 5" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo6.png" alt="Brand logo 6" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo7.png" alt="Brand logo 7" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo8.png" alt="Brand logo 8" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo9.png" alt="Brand logo 9" width={155} height={40} /></div>
 
-              <div className="brand-box"><img src="/brands/logo1.png" alt="Brand logo 1" /></div>
-              <div className="brand-box"><img src="/brands/logo2.png" alt="Brand logo 2" /></div>
-              <div className="brand-box"><img src="/brands/logo3.png" alt="Brand logo 3" /></div>
-              <div className="brand-box"><img src="/brands/logo4.png" alt="Brand logo 4" /></div>
-              <div className="brand-box"><img src="/brands/logo5.png" alt="Brand logo 5" /></div>
-              <div className="brand-box"><img src="/brands/logo6.png" alt="Brand logo 6" /></div>
-              <div className="brand-box"><img src="/brands/logo7.png" alt="Brand logo 7" /></div>
-              <div className="brand-box"><img src="/brands/logo8.png" alt="Brand logo 8" /></div>
-              <div className="brand-box"><img src="/brands/logo9.png" alt="Brand logo 9" /></div>
+              <div className="brand-box"><Image src="/brands/logo1.png" alt="Brand logo 1" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo2.png" alt="Brand logo 2" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo3.png" alt="Brand logo 3" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo4.png" alt="Brand logo 4" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo5.png" alt="Brand logo 5" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo6.png" alt="Brand logo 6" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo7.png" alt="Brand logo 7" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo8.png" alt="Brand logo 8" width={155} height={40} /></div>
+              <div className="brand-box"><Image src="/brands/logo9.png" alt="Brand logo 9" width={155} height={40} /></div>
             </div>
           </div>
         </section>

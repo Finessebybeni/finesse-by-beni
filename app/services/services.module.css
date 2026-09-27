@@ -83,15 +83,13 @@
 }
 
 .categoryImage {
+  position: relative;
   height: 240px;
   overflow: hidden;
 }
 
 .categoryImage img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
-  display: block;
 }
 
 .categoryContent {
@@ -150,6 +148,7 @@
 }
 
 .serviceIcon {
+  position: relative;
   width: 74px;
   height: 74px;
   border-radius: 18px;
@@ -163,10 +162,7 @@
 }
 
 .serviceIcon img {
-  width: 100%;
-  height: 100%;
   object-fit: contain;
-  display: block;
 }
 
 .serviceSummary h3 {

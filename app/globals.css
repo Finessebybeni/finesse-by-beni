@@ -1627,12 +1627,8 @@ a {
 }
 
 .studio-grid-item img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
-  display: block;
   border-radius: 22px;
-  position: relative;
   z-index: 1;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
 }
@@ -1654,11 +1650,14 @@ a {
   border: 1px solid rgba(156, 45, 65, 0.08);
 }
 
-.studio-article img {
+.studio-article-image {
+  position: relative;
   width: 100%;
   height: 260px;
+}
+
+.studio-article-image img {
   object-fit: cover;
-  display: block;
 }
 
 .studio-article h3 {
@@ -1735,6 +1734,7 @@ a {
 }
 
 .studio-slide {
+  position: relative;
   width: 220px;
   height: 390px;
   border-radius: 22px;
@@ -1745,10 +1745,7 @@ a {
 }
 
 .studio-slide img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
-  display: block;
 }
 
 @keyframes studioScroll {

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -25,7 +26,7 @@ export default function Navbar() {
 
         <div className="logo-holder">
           <Link href="/" className="logo">
-            <img src="/logo.png" alt="Finesse by Beni logo" />
+            <Image src="/logo.png" alt="Finesse by Beni logo" width={118} height={118} priority />
           </Link>
         </div>
 

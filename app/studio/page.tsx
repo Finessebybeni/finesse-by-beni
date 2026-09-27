@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function StudioPage() {
   const [open, setOpen] = useState<number | null>(null);
@@ -66,14 +67,26 @@ export default function StudioPage() {
         <section className="studio-grid">
           {Array.from({ length: 12 }).map((_, i) => (
             <div key={i} className="studio-grid-item">
-              <img src={`/studio/grid/${i + 1}.jpg`} alt={`Studio work ${i + 1}`} />
+              <Image
+                src={`/studio/grid/${i + 1}.jpg`}
+                alt={`Studio work ${i + 1}`}
+                fill
+                sizes="(min-width: 900px) 25vw, 50vw"
+              />
             </div>
           ))}
         </section>
 
         <section className="studio-articles">
           <div className="studio-article">
-            <img src="/studio/articles/article-1.jpg" alt="Gel manicure article" />
+            <div className="studio-article-image">
+              <Image
+                src="/studio/articles/article-1.jpg"
+                alt="Gel manicure article"
+                fill
+                sizes="(min-width: 900px) 33vw, 100vw"
+              />
+            </div>
             <h3>Gel vs Acrylic — What Actually Matters</h3>
             <p className="studio-sub">
               It’s not about trend. It’s about how your nails look and feel after weeks.
@@ -135,7 +148,14 @@ export default function StudioPage() {
           </div>
 
           <div className="studio-article">
-            <img src="/studio/articles/article-2.jpg" alt="Beauty treatment article" />
+            <div className="studio-article-image">
+              <Image
+                src="/studio/articles/article-2.jpg"
+                alt="Beauty treatment article"
+                fill
+                sizes="(min-width: 900px) 33vw, 100vw"
+              />
+            </div>
             <h3>Why Beauty Treatments Matter More Than You Think</h3>
             <p className="studio-sub">
               It’s not about “extra”. It’s about how you feel day to day.
@@ -194,7 +214,14 @@ export default function StudioPage() {
           </div>
 
           <div className="studio-article">
-            <img src="/studio/articles/article-3.jpg" alt="Appointment only article" />
+            <div className="studio-article-image">
+              <Image
+                src="/studio/articles/article-3.jpg"
+                alt="Appointment only article"
+                fill
+                sizes="(min-width: 900px) 33vw, 100vw"
+              />
+            </div>
             <h3>Walk-In vs Appointment — What’s the Real Difference?</h3>
             <p className="studio-sub">
               Why the way you book affects the whole experience.
@@ -276,13 +303,23 @@ export default function StudioPage() {
             <div className="studio-slider-track">
               {Array.from({ length: 15 }).map((_, i) => (
                 <div key={i} className="studio-slide">
-                  <img src={`/studio/slider/story-${i + 1}.jpg`} alt={`Recent moment ${i + 1}`} />
+                  <Image
+                    src={`/studio/slider/story-${i + 1}.jpg`}
+                    alt={`Recent moment ${i + 1}`}
+                    fill
+                    sizes="220px"
+                  />
                 </div>
               ))}
 
               {Array.from({ length: 15 }).map((_, i) => (
                 <div key={`copy-${i}`} className="studio-slide">
-                  <img src={`/studio/slider/story-${i + 1}.jpg`} alt={`Recent moment ${i + 1}`} />
+                  <Image
+                    src={`/studio/slider/story-${i + 1}.jpg`}
+                    alt={`Recent moment ${i + 1}`}
+                    fill
+                    sizes="220px"
+                  />
                 </div>
               ))}
             </div>

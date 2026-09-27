@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutPage() {
   return (
     <main className="about-page">
@@ -77,20 +79,20 @@ export default function AboutPage() {
             <div className="about-story-visual">
               <div className="about-image-card about-image-large">
                 <div className="about-image-inner">
-                  <img src="/about/about-story-main.jpg" alt="Finesse by Beni salon story" />
+                  <Image src="/about/about-story-main.jpg" alt="Finesse by Beni salon story" fill sizes="(min-width: 900px) 50vw, 100vw" />
                 </div>
               </div>
 
               <div className="about-image-row">
                 <div className="about-image-card">
                   <div className="about-image-inner">
-                    <img src="/about/about-award.jpg" alt="Award and recognition" />
+                    <Image src="/about/about-award.jpg" alt="Award and recognition" fill sizes="(min-width: 900px) 25vw, 50vw" />
                   </div>
                 </div>
 
                 <div className="about-image-card">
                   <div className="about-image-inner">
-                    <img src="/about/about-story-work.jpg" alt="Work in progress at Finesse by Beni" />
+                    <Image src="/about/about-story-work.jpg" alt="Work in progress at Finesse by Beni" fill sizes="(min-width: 900px) 25vw, 50vw" />
                   </div>
                 </div>
               </div>
@@ -110,20 +112,20 @@ export default function AboutPage() {
             <div className="about-founder-gallery">
               <div className="about-image-card about-founder-main">
                 <div className="about-image-inner">
-                  <img src="/about/beni-portrait.jpg" alt="Beni portrait" />
+                  <Image src="/about/beni-portrait.jpg" alt="Beni portrait" fill sizes="(min-width: 900px) 50vw, 100vw" />
                 </div>
               </div>
 
               <div className="about-image-row">
                 <div className="about-image-card">
                   <div className="about-image-inner">
-                    <img src="/about/beni-work-1.jpg" alt="Beni at work" />
+                    <Image src="/about/beni-work-1.jpg" alt="Beni at work" fill sizes="(min-width: 900px) 25vw, 50vw" />
                   </div>
                 </div>
 
                 <div className="about-image-card">
                   <div className="about-image-inner">
-                    <img src="/about/beni-work-2.jpg" alt="Beni nail detail work" />
+                    <Image src="/about/beni-work-2.jpg" alt="Beni nail detail work" fill sizes="(min-width: 900px) 25vw, 50vw" />
                   </div>
                 </div>
               </div>
@@ -175,7 +177,7 @@ export default function AboutPage() {
             <article className="about-team-card">
               <div className="about-image-card about-team-portrait">
                 <div className="about-image-inner">
-                  <img src="/about/team-beni.jpg" alt="Beni team portrait" />
+                  <Image src="/about/team-beni.jpg" alt="Beni team portrait" fill sizes="(min-width: 900px) 25vw, 50vw" />
                 </div>
               </div>
 
@@ -191,7 +193,7 @@ export default function AboutPage() {
             <article className="about-team-card">
               <div className="about-image-card about-team-portrait">
                 <div className="about-image-inner">
-                  <img src="/about/team-lucy.jpg" alt="Britney team portrait" />
+                  <Image src="/about/team-lucy.jpg" alt="Lucy team portrait" fill sizes="(min-width: 900px) 25vw, 50vw" />
                 </div>
               </div>
 
